@@ -10,3 +10,5 @@ var getDecision  = function (questionnaireAnswers) {
 
     return [decision];
 };
+
+module.exports = getDecision;

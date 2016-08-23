@@ -1,5 +1,4 @@
 import {expect} from 'chai';
-import _ from 'lodash';
 import RuleContext from './RuleContext';
 
 describe('Make Decision', () => {
@@ -7,7 +6,7 @@ describe('Make Decision', () => {
         var questionnaireAnswers = new RuleContext();
         questionnaireAnswers.set("Height", 100);
         questionnaireAnswers.set("Weight", 10);
-        // eval('../modules/bmi/decision.js');
-        // getDecision(questionnaireAnswers);
+        var getDecision = require('../modules/bmi/decision');
+        expect(getDecision(questionnaireAnswers).length).is.equal(1);
     });
 });
