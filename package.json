@@ -1,16 +1,16 @@
 {
-  "name": "Lokbiradari-VHW",
+  "name": "Test-Modules",
   "version": "0.0.1",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenCHS/lokbiradari-vhw.git"
+    "url": "https://github.com/OpenCHS/test-modules.git"
   },
   "license": "AGPL-3.0",
   "scripts": {
     "start": "",
     "lint": "./node_modules/.bin/eslint src",
-    "test": "find ./modules/vhw/test -name '*Test.js' | xargs mocha --require modules/vhw/test/testHelper.js"
+    "test": "find ./test -name '*Test.js' | xargs mocha --require ./test/testHelper.js"
   },
   "dependencies": {
     "lodash": "^4.12.0"

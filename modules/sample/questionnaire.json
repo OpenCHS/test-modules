@@ -1,6 +1,7 @@
 {
   "uuid": "7504b0ea-6a94-41db-bf05-dbd1750edd3e",
-  "name": "Sample without control flow",
+  "name": "sample",
+  "display": "Sample",
   "description": "Sample questionnaire without control flow logic",
   "conceptUUID": "be5b3fce-71ec-4153-9172-afe6d04cc828",
   "questions": [

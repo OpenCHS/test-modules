@@ -1,5 +1,6 @@
 {
-  "name": "BMI",
+  "name": "bmi",
+  "display": "BMI",
   "uuid": "05a67566-7446-4216-bce4-1e3495f4ed23",
   "description": "BMI App",
   "conceptUUID": "05a67566-7446-4216-bce4-1e3495f4ed22",
