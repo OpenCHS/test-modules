@@ -1,0 +1,55 @@
+[
+  {
+    "name": "BMI",
+    "uuid": "05a67566-7446-4216-bce4-1e3495f4ed22",
+    "conceptNames": [
+      {
+        "name": "जन्मतिथि",
+        "locale": "hi_IN"
+      },
+      {
+        "name": "BMI",
+        "locale": "en"
+      }
+    ],
+    "datatype": {
+      "name": "Text"
+    }
+  },
+  {
+    "name": "Height",
+    "uuid": "9bcf1baa-0537-4475-bbe6-2d92952e4f3d",
+    "conceptNames": [
+      {
+        "name": "जन्मतिथि",
+        "locale": "hi_IN"
+      },
+      {
+        "name": "Height",
+        "locale": "en"
+      }
+    ],
+    "datatype": {
+      "name": "Numeric"
+    }
+  },
+  {
+    "name": "Weight",
+    "uuid": "860f788e-eb75-4530-8804-fc8aca8f3996",
+    "conceptNames": [
+      {
+        "name": "वजन",
+        "locale": "mr_IN"
+      },
+      {
+        "name": "Weight",
+        "locale": "en"
+      }
+    ],
+    "datatype": {
+      "name": "Numeric"
+    },
+    "lowAbsolute": 1,
+    "hiAbsolute": 120
+  }
+]
