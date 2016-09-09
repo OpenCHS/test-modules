@@ -11,4 +11,8 @@ var getDecision  = function (questionnaireAnswers) {
     return [decision];
 };
 
-module.exports = getDecision;
+var validate = function(ruleContext) {
+    return {passed: true}
+};
+
+module.exports = {getDecision: getDecision, validate: validate};

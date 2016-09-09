@@ -1,4 +1,4 @@
-var getDecision = function (questionnaireAnswers) {
+var getDecision = function (ruleContext) {
     var decision = {};
     decision.name = "Treatment";
     decision.code = "ABC001";
@@ -6,3 +6,9 @@ var getDecision = function (questionnaireAnswers) {
     decision.alert = "ALERT MESSAGE";
     return [decision];
 };
+
+var validate = function(ruleContext) {
+    return {passed: true}
+};
+
+module.exports = {getDecision: getDecision, validate: validate};
